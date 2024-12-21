@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+    body{
+
+background-color: blanchedalmond;
+
+
+    }
+    
+
+
+
+
+
+    .container{
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+        background-color: #f5f5f5;
+        width:70% ;
+        height: 25%;
+      margin:15rem auto;
+      padding: 1rem;
+      border: 5rem solid #bbbbee;
+      border-radius: 3rem;
+      position: relative;
+
+    }
+
+
+
+    .child{
+         
+        width:70% ;
+        height: 17rem;
+
+  
+    }
+
+
+    .pone{
+
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top:3rem;
+    }
+
+    .ptwo{
+
+        height: 5rem;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top:3rem;
+
+    }
+
+    .pone article{
+        width:4rem;
+        height:4rem;
+        background-color: blue;
+        border-radius:60%;
+        
+    }
+
+
+
+    .pone article:hover{
+        width:4rem;
+        height:4rem;
+        background-color: #00ffdd;
+        border-radius:60%;
+     
+        border: solid 3px ;
+        
+    }
+
+
+
+
+
+    .ptwo article{
+        width:4rem;
+        height:5rem;
+            border: 2px solid wheat;
+        
+    };
+
+
+    .pthree{
+        width:100%;
+background-color: #30ebc2;
+height: auto;
+    }
+
+
+
+    .photo{
+
+
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
+        position: absolute;
+         bottom: 9rem;
+         right:0;
+    }
+
+    img{
+    
+        width:25rem ;
+        height: 17rem;
+        margin-right: 0;
+        padding: 0;
+       position: absolute;
+       right:0;
+       transform: translateX(6rem);
+            }
